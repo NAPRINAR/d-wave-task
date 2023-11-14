@@ -7,7 +7,6 @@ import Movies from "../Movies/Movies";
 
 const HomePage = () => {
 
-
     return (
         <div className='main'>
             <div className="homepage">
