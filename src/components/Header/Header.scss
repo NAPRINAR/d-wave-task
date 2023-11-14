@@ -1,0 +1,76 @@
+
+.header {
+  &__wrapper {
+    display:flex;
+    width: 90.5vw;
+    height: 100vh;
+  }
+
+  &__info{
+    position: relative;
+  }
+
+  &__infoDesc{
+    position: absolute;
+    top:20%;
+    left:30px;
+  }
+
+  &__background{
+    width: 93.5vw;
+    height: 100vh;
+  }
+
+  &__title{
+    width: 500px;
+  }
+
+  &__desc{
+    color:#fff;
+    letter-spacing: 2px;
+  }
+
+  &__subtitles {
+    display: flex;
+    color: #fff;
+  }
+
+  &__subtitle{
+    margin: 10px 0 0 10px;
+  }
+
+  &__text{
+    width: 50%;
+    margin-top: 30px;
+    font-size: 18px;
+    color:#fff;
+  }
+
+  &__buttons{
+    position: absolute;
+    top:50%;
+    left:9%;
+    margin-top: 30px;
+  }
+  
+
+  &__button{
+    padding:10px 30px;
+    border:none;
+    border-radius:30px;
+    margin-right: 30px;
+    cursor:pointer;
+    background: #fff;
+    outline: none;
+    font-size:17px;
+    font-weight: bold;
+    color:#000;
+
+  }
+  
+  &__button:last-child{
+    background: blue;
+    color:#fff;
+
+  }
+}

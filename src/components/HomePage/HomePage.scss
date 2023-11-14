@@ -1,0 +1,17 @@
+.homepage{
+  position: relative;
+  top:0;
+  left:0;
+  display:flex;
+  overflow: hidden;
+  &__content{
+    color:#000;
+  }
+
+
+  &__some{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
